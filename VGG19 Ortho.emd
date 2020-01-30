@@ -1,0 +1,22 @@
+{
+    "Framework": "TensorFlow",
+	"ModelConfiguration":"Keras",
+	"InferenceFunction":"TransferClassifierOrtho.py",
+    "ModelFile":"model_PNK_Transfer_VGG19_AllFrozen_NoN_256_O-5FL_0.001_loss_0.65_0.35-02-0.42.h5",
+    "ModelType":"ImageClassification",
+	"ImageHeight":256,
+	"ImageWidth":256,
+    "ExtractBands":[0,1,2],
+    "Classes" : [
+		{
+			"Value": 0,
+			"Name": "No Damage",
+			"Color": [0, 255, 0]
+		},
+		{
+			"Value": 1,
+			"Name": "Damaged Area",
+			"Color": [255, 0, 0]
+		}
+    ]
+}

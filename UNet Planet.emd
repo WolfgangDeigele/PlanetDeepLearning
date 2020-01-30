@@ -1,0 +1,22 @@
+{
+    "Framework": "TensorFlow",
+	"ModelConfiguration":"Keras",
+	"InferenceFunction":"PlanetClassifier.py",
+    "ModelFile":"final_NB2_256_[8, 16, 32, 64, 128]_0.002_0-1.5_loss_0.9434_0.0566-04-0.43.h5",
+    "ModelType":"ImageClassification",
+	"ImageHeight":256,
+	"ImageWidth":256,
+    "ExtractBands":[0,1,2,3],
+    "Classes" : [
+		{
+			"Value": 0,
+			"Name": "No Damage",
+			"Color": [0, 255, 0]
+		},
+		{
+			"Value": 1,
+			"Name": "Damaged Area",
+			"Color": [255, 0, 0]
+		}
+    ]
+}
