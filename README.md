@@ -12,6 +12,6 @@ The files ending with ".h5" are combiled and trained model files that can be use
 The files ending with ".hdf5" are weights for the models and are not required by the toolbox.
 The file "VGG_model.zip" is a zipped version of the compiled VGG19 transfer learning model file.
 
-The models/weights are named as follows:
-"Trained on satellite/ortho images" _ "Trained with satellite/ortho labels" _ "Prediction optimized for satellite/ortho labels" . "h5/hdf5".
+The models/weights are named as follows:<br>
+"Trained on satellite/ortho images" _ "Trained with satellite/ortho labels" _ "Prediction optimized for satellite/ortho labels" . "h5/hdf5"<br>
 The VGG16 model is trained in ortho images, labels, and optimized for ortho label prediction.
